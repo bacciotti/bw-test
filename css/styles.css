@@ -1,0 +1,89 @@
+/**
+ * 1 Container
+ *
+ * Where the text and form are output.
+ */
+.container {
+	background-color: #4a58ca;
+	padding: 50px !important;
+}
+
+/* Form */
+.div-form {
+	background-color: #f0f0f0;
+	border-radius: 15px;
+	padding: 20px;
+}
+
+.div-contact-form {
+	padding: 30px;
+}
+
+/* Headings and texts */
+.div-headings h1, h6, p, h1 {
+	color: white;
+}
+
+.title {
+	font-size: 2em;
+}
+
+.subtitle {
+	font-size: 0.8em;
+	text-transform: none;
+	font-weight: normal;
+}
+
+.listing {
+	font-family: "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 0.9em;
+	color: white;
+}
+
+.listing-bold {
+	font-weight: bold;
+}
+
+#enrollment-capacity {
+	color: black;
+	line-height: 40px;
+	font-size: 0.75em;
+}
+
+/* Button */
+input[type=submit] {
+	background-color: #f89a39;
+	border: none;
+	width: 100%;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding: 20px 0 20px 0;
+	border-radius: 10px;
+	margin-top: 20px;
+	text-transform: capitalize;
+}
+
+input[type=submit]:hover {
+	background-color: #4a58ca;
+	text-decoration: none;
+}
+
+input[type=submit]:focus {
+	text-decoration: none;
+}
+
+/**
+ * 2 Media queries
+ *
+ * Responsiveness.
+ */
+@media (max-width: 700px) {
+	.container h1,
+	.container h6,
+	.container .listing,
+	.container #enrollment-capacity,
+	.container .submitted-message,
+	.container .btn-submit {
+		font-size: 2em !important;
+	}
+}
