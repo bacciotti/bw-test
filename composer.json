@@ -1,0 +1,16 @@
+{
+  "name": "bacciotti/bw-test",
+  "description": "BW Hubspot Plugin is a very simple plugin that, through a Shortcode, insert a Hubspot form in posts, pages, page builders etc.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Lucas Bacciotti Moreira",
+      "email": "lbaciotti@gmail.com"
+    }
+  ],
+  "require": {
+    "squizlabs/php_codesniffer":"3.6.2",
+    "wp-coding-standards/wpcs":"2.3.0"
+  }
+}
