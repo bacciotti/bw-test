@@ -1,12 +1,8 @@
-phpcs phpcbf
-testar
-sanitize scape
-
 # BW Hubspot Plugin
 ## Description
 
 - BW Hubspot Plugin is a very simple plugin that, through a Shortcode, insert a Hubspot form in posts, pages, page builders etc.
-- **IMPORTANT NOTE: for better visual effect, it is recommended to use the "Full Width Template" on the page where the Shortcode is inserted.**
+- IMPORTANT NOTE: for better visual effect, it is recommended to use the "Full Width Template" on the page where the Shortcode is inserted.
 - This project was designed with WordPress Coding Standards: https://github.com/WordPress/WordPress-Coding-Standards
 
 ## Contributors
@@ -31,7 +27,7 @@ hubspot, form
 
 ### How to use?
 After activation, insert the `[bw_plugin]` Shortcode in your posts, pages, page builders, sidebars, etc.   
-**IMPORTANT NOTE: for better visual effect, it is recommended to use the "Full Width Template" on the page where the Shortcode is inserted.**
+IMPORTANT NOTE: for better visual effect, it is recommended to use the "Full Width Template" on the page where the Shortcode is inserted.
 
 ### Why a plugin and not a theme?
 
@@ -40,10 +36,15 @@ Because with a plugin and consequently a Shortcode it becomes easier and more fl
 ## Future tasks | To-Do
 - Call the hubspot snippet in the WP native enqueue function.
 ## Changelog
+### 1.1
+- CSS changed: full-width implemented on the container. 
+- Styles bugs fixed.
+
 ### 1.0
 - The deploy on Github.
 
 ### Upgrade Notice
+- 1.1 = CSS improvements.
 - 1.0 = This is the first version.
 
 First commit.
