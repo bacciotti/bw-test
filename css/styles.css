@@ -83,7 +83,32 @@ input[type=submit]:focus {
 	.container .listing,
 	.container #enrollment-capacity,
 	.container .submitted-message,
-	.container .btn-submit {
+	.container select,
+	.container input[type=submit]{
 		font-size: 2em !important;
 	}
+}
+
+/**
+ * 2 Media queries
+ *
+ * Responsiveness.
+ */
+@media (max-width: 600px) {
+	.container h1,
+	.container h6,
+	.container .listing,
+	.container #enrollment-capacity,
+	.container .submitted-message,
+	.container select,
+	.container input[type=submit]{
+		font-size: 2em !important;
+	}
+}
+
+/**
+ * 3 Full Width
+ */
+.entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide){
+	max-width: 90% !important;
 }
