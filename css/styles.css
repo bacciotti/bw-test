@@ -50,6 +50,11 @@
 	font-size: 0.75em;
 }
 
+/*Text inputs*/
+.container input{
+	width: 100%;
+}
+
 /* Button */
 input[type=submit] {
 	background-color: #f89a39;
@@ -85,24 +90,7 @@ input[type=submit]:focus {
 	.container .submitted-message,
 	.container select,
 	.container input[type=submit]{
-		font-size: 2em !important;
-	}
-}
-
-/**
- * 2 Media queries
- *
- * Responsiveness.
- */
-@media (max-width: 600px) {
-	.container h1,
-	.container h6,
-	.container .listing,
-	.container #enrollment-capacity,
-	.container .submitted-message,
-	.container select,
-	.container input[type=submit]{
-		font-size: 2em !important;
+		font-size: 1.2em !important;
 	}
 }
 
