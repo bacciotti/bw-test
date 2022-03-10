@@ -77,6 +77,10 @@ input[type=submit]:focus {
 	text-decoration: none;
 }
 
+.container label{
+	color: black !important;
+}
+
 /**
  * 2 Media queries
  *
