@@ -66,7 +66,7 @@ class Shortcode {
 		$output = " 
             <div class='container'>
                 <!--Row with two equal columns-->
-                <div class='row'>
+                <div class='row align-items-center'>
                     <div class='col-md-6'>
                         <div class='demo-content'>
                         <h1 class='title'>Schedule a demo</h1>
